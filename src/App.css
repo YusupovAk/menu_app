@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  /* overflow: hidden; */
+  .Container{
+    
+  }
+ p{
+  color: black;
+ }
+  .navBar{
+    padding: 25px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(86, 86, 86);
+    width: 100vw;
+    height: 40px;
+    position: fixed;
+    .call{
+      color: azure;
+      font-size: smaller;
+    }
+    .CustomNav{
+      display: flex;
+      align-items: center;
+    }
+  .infoText{
+    padding: 25px;
+
+  }
+  }
+  .menues{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    align-items: center;
+    padding: 80px 20px;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+      flex-flow: column wrap;
+    }
+  
+    .Menu{
+      display: flex;
+      align-items: center;
+      flex-flow: row wrap;
+      .menuCon{
+        border-radius: 8%;
+        padding: 10px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 388px;
+        height: 400px;
+        background: lightgray;
+        box-shadow: 0px 4px 6px rgb(255, 255, 255);
+      .IfoCon{
+        color: black;
+        border-radius: 10%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        background: gray;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.792);
+      .IfoText{
+        padding: 3px;
+        font-size: 14px;
+      }
+      .moreIfo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        width: 350px;
+        background: black;
+      }
+    .timeCon{
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      .timeText{
+        font-size: 15px;
+      }
+    }
+    }
+
+      }
+    }
+  }
+
+
+  .picture{
+    display: flex;
+    border-radius: 12%;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    align-items: center;
+    height: 200px;
+    width: 370px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.792);
+  }
+}
